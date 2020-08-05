@@ -16,7 +16,7 @@ const store = {
                 return{...storeValues,[item]:value, alertText, alertDanger}
             })
         }else{
-            globalStore.update(storeValues => {
+            globalStore.update(storeValues => {  
                 return{...storeValues,[item]:value}
             })
         }
