@@ -4,7 +4,7 @@
     import {addToCart} from '../stores/cart';
     // global store
     import globalStores from "../stores/globalStores";
-    import products from "../stores/defaultProducts";
+    import products from "../stores/products";
     import Loading from "../components/Loading.svelte";
     import { link } from "svelte-routing"
 
@@ -38,4 +38,3 @@
     </section>
 {/if}
 
-<h1>Welcome to product template page with id : {id}</h1>

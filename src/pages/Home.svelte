@@ -1,4 +1,5 @@
 <script>
+    export let location;
     import Hero from  "../components/Hero.svelte";
     import { link } from "svelte-routing";
     import Faetured from "../components/Products/Featured.svelte"

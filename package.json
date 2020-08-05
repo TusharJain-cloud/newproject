@@ -16,7 +16,9 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "sirv-cli": "^0.4.4",
+    "stripe": "^8.81.0",
     "svelte-routing": "^1.4.2"
   }
 }
